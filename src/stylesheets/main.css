@@ -1,0 +1,64 @@
+.row_text{
+    text-align: center;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.row_input{
+    width:100%;
+}
+
+.row_input_align{
+    margin:auto;
+}
+
+.row_button{
+    text-align: center!important;
+    width: 100%;
+}
+.ui.button{
+    background:#bcbdc0;
+}
+
+.row_button .ui.button{
+    margin:1px;
+}
+
+.row_button_color{
+    background:#bcbdc0;
+}
+
+.page_header{
+    background-color:#FFFFFF;
+}
+
+body{
+    background-color:#e7e7e8;
+}
+
+span{
+    font-family: Arial;
+}
+.main_img_box_right {
+    width: 30%;
+    float: right;
+    margin-right: 10%;
+}
+.main_img_box_left {
+    width: 30%;
+    float: left;
+    margin-left: 10%;
+}
+
+.main_body_margin{
+    margin-top: 15%;
+}
+
+.dropdown_width{
+    width:90%;
+    margin:auto;
+}
+
+.ui.form .fields{
+    margin-bottom:0px;
+}

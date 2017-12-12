@@ -1,0 +1,10 @@
+.page__content {
+    overflow: hidden;
+}
+.page__subheader {
+    background-color: #fff;
+}
+body {
+    color: #4a4a4a;
+    background-color: #e7e7e8;
+}
