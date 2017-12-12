@@ -31,7 +31,7 @@ export class Header_Page extends Component{
                         <div className="page__headerLogo"></div>
                     </div>
                     <Link className="page__headerLogo components__start_page" to="/">
-                        <img src={"/app/images/logo_belimo.png"} className="page__headerLogoImg main_img" role="presentation"/>
+                        <img src={logo} className="page__headerLogoImg main_img" role="presentation"/>
                     </Link>
                     <Link className="ui icon button right floated settings_button" to="/settings">
                         <i className="icon settings"></i>
