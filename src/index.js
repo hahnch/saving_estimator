@@ -7,7 +7,7 @@ import './stylesheets/config_page.css';
 import './stylesheets/header_page.css';
 import './stylesheets/semantic/dist/semantic.css';
 import './stylesheets/main.css';
-//import './javascripts/jquery-3.2.1.min.js';
+
 
 var Counterpart = require('counterpart');
 
