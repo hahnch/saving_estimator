@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { Link } from 'react-router-dom';
+import logo from '../images/logo_belimo.svg';
 
 export class Header_Page extends Component{
     constructor(props)
@@ -43,11 +44,11 @@ export class Header_Page extends Component{
             <div className="eight wide computer twelve wide tablet sixteen wide mobile column">
                 <div className="wrap_logo">
                     <Link className="page__headerLogo" to={this.props.imgLink.toString()}>
-                        <img src={"/app/images/" + this.props.imgName.toString()} className="page__headerLogoImg main_img" role="presentation"/>
+                        <img src={"../images/" + this.props.imgName.toString()} className="page__headerLogoImg main_img" role="presentation"/>
                     </Link>
                 </div>
                 <Link className="page__headerLogo components__start_page" to="/">
-                    <img src={"/app/images/logo_belimo.png"} className="page__headerLogoImg main_img" role="presentation"/>
+                    <img src={logo} className="page__headerLogoImg main_img" role="presentation"/>
                 </Link>
                 <Link className="ui icon button right floated settings_button" to="/settings">
                     <i className="icon settings"></i>

@@ -1,25 +1,13 @@
-/*
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
-import './css/App.css';
-import './css/index.css';
-
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
-*/
-/**
- * Created by Christian on 29.10.2017.
- */
-import React from 'react';
-import { render } from 'react-dom';
+import './index.css';
 import App from './components/App';
 import registerServiceWorker from './registerServiceWorker';
 import './stylesheets/config_page.css';
 import './stylesheets/header_page.css';
-import './stylesheets/semantic.min.css';
+import './stylesheets/semantic/dist/semantic.css';
 import './stylesheets/main.css';
+//import './javascripts/jquery-3.2.1.min.js';
 
 var Counterpart = require('counterpart');
 
@@ -31,5 +19,5 @@ Counterpart.registerTranslations("Deutsch", require("./translation/de_home.js"))
 Counterpart.registerTranslations("English", require("./translation/en_home.js"));
 Counterpart.setLocale('English');
 
-render(<App />, window.document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
