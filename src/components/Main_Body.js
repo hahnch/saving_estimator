@@ -5,6 +5,9 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import {Button_Row} from "./Button_Row";
 import { Link } from 'react-router-dom';
+import valvelogo from '../images/Icon-valves-pos.jpg';
+import actuatorlogo from '../images/Icon-energy-efficiency-pos.jpg';
+
 var Translate = require('react-translate-component');
 
 export class Main_Body extends Component{
@@ -24,10 +27,10 @@ export class Main_Body extends Component{
                                     <div className="row">
                                         <div className="wrap_logo">
                                             <Link to="/valvetightness">
-                                                <img src="/app/images/Icon-valves-pos.jpg" className="main_img_box_left" role="presentation"/>
+                                                <img src={valvelogo} className="main_img_box_left" role="presentation"/>
                                             </Link>
                                             <Link to="/actuatortechnology">
-                                                <img src="/app/images/Icon-energy-efficiency-pos.jpg" className="main_img_box_right" role="presentation"/>
+                                                <img src={actuatorlogo} className="main_img_box_right" role="presentation"/>
                                             </Link>
                                         </div>
                                     </div>

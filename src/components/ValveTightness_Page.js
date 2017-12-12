@@ -18,7 +18,7 @@ export class ValveTightness_Page extends Component{
     render() {
         return(
             <div>
-                <Header_Page imgName="Icon-valves-pos-white.jpg" imgLink="/valvetightness"/>
+                <Header_Page imgName="Icon-valves-pos-white.jpg" imgLink="valvetightness"/>
                 <ValveTightness_Body_Page/>
             </div>
         );

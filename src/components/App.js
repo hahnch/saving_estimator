@@ -25,13 +25,3 @@ class App extends Component {
     }
 }
 export default App;
-/*
-* <h2>Welcome to React Router Tutorial</h2>
- <ul>
- <li><Link to={'/'}>Header</Link></li>
- <li><Link to={'/Home'}>Home</Link></li>
- <li><Link to={'/'}>Main_Page</Link></li>
- <li><Link to={'/settings'}>Config_Page</Link></li>
- </ul>
- <hr/>
-* */

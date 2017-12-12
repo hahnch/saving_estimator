@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { Link } from 'react-router-dom';
-import logo from '../images/logo_belimo.svg';
+import logo from '../images/logo_belimo.png';
+import valvelogo from '../images/Icon-valves-pos-white.jpg';
+import actuatorlogo from '../images/Icon-energy-efficiency-pos-white.jpg';
 
 export class Header_Page extends Component{
     constructor(props)
@@ -39,12 +41,12 @@ export class Header_Page extends Component{
                 </div>
             );
         }
-        else{
+        else if(this.props.imgLink.toString()==="actuatortechnology"){
             return(
             <div className="eight wide computer twelve wide tablet sixteen wide mobile column">
                 <div className="wrap_logo">
                     <Link className="page__headerLogo" to={this.props.imgLink.toString()}>
-                        <img src={"../images/" + this.props.imgName.toString()} className="page__headerLogoImg main_img" role="presentation"/>
+                        <img src={actuatorlogo} className="page__headerLogoImg main_img" role="presentation"/>
                     </Link>
                 </div>
                 <Link className="page__headerLogo components__start_page" to="/">
@@ -54,6 +56,22 @@ export class Header_Page extends Component{
                     <i className="icon settings"></i>
                 </Link>
             </div>);
+        }
+        else if(this.props.imgLink.toString()==="valvetightness"){
+            return(
+                <div className="eight wide computer twelve wide tablet sixteen wide mobile column">
+                    <div className="wrap_logo">
+                        <Link className="page__headerLogo" to={this.props.imgLink.toString()}>
+                            <img src={valvelogo} className="page__headerLogoImg main_img" role="presentation"/>
+                        </Link>
+                    </div>
+                    <Link className="page__headerLogo components__start_page" to="/">
+                        <img src={logo} className="page__headerLogoImg main_img" role="presentation"/>
+                    </Link>
+                    <Link className="ui icon button right floated settings_button" to="/settings">
+                        <i className="icon settings"></i>
+                    </Link>
+                </div>);
         }
     }
 }

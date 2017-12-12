@@ -17,7 +17,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "description": "This project is the diploma thesis from Christian Hahn and Michael Lang for Belimo",
   "main": "index.js",
   "devDependencies": {},
   "repository": {

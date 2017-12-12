@@ -8,6 +8,7 @@ import {Body_Page} from './Body_Page';
 import Main_Body from "./Main_Body";
 
 
+
 export class Main_Page extends Component{
     constructor(props)
     {
