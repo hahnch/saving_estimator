@@ -18,7 +18,6 @@ export class ActuatorTechnology_Page extends Component{
             <div>
                 <Header_Page imgName="Icon-energy-efficiency-pos-white.jpg" imgLink="actuatortechnology"/>
                 <ActuatorTechnology_Body_Page/>
-                <Print/>
             </div>
         );
     }
