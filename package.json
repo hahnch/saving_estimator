@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "counterpart": "^0.18.4",
+    "html2canvas": "^1.0.0-alpha.4",
+    "jspdf": "^1.3.5",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-interpolate-component": "^0.11.0",

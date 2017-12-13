@@ -22,7 +22,7 @@ export class Header_Page extends Component{
             </div>
         );
     }
-
+//Factory Pattern
     imgRender()
     {
         if(this.props.imgName.toString()==="")

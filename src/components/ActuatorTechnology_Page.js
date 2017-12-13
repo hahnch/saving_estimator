@@ -4,6 +4,7 @@
 import React, { Component } from 'react';
 import {ActuatorTechnology_Body_Page} from "./ActuatorTechnology_Body_Page";
 import Header_Page from "./Header_Page";
+import Print from "./Print";
 
 
 export class ActuatorTechnology_Page extends Component{
@@ -17,6 +18,7 @@ export class ActuatorTechnology_Page extends Component{
             <div>
                 <Header_Page imgName="Icon-energy-efficiency-pos-white.jpg" imgLink="actuatortechnology"/>
                 <ActuatorTechnology_Body_Page/>
+                <Print/>
             </div>
         );
     }
